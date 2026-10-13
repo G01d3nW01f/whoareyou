@@ -1,0 +1,20 @@
+[package]
+name = "whoareyou"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+url = "2"
+
+rustls = "0.23"
+rustls-pki-types = "1"
+
+webpki-roots = "0.26"
+
+x509-parser = "0.16"
+ring = "0.17"
+
+chrono = "0.4"
+anyhow = "1"
+openssl = "0.10"
